@@ -1,0 +1,291 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: spawnChainLerp
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 887151bd94fc830449f103151024116c, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: headPercentage
+    value: 57
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: spinePercentage
+    value: 30.7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightArmPercentage
+    value: 27.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftArmPercentage
+    value: 27.3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightLegPercentage
+    value: 16.9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftLegPercentage
+    value: 34.9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: spatialJitter
+    value: 0.022
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: scaleJitterMin
+    value: 0.52
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: scaleJitterMax
+    value: 0.77
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fibonacciScalePercentage
+    value: 0.021
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: spawnTag
+    value: clone
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: spawns.Array.size
+    value: 15
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: spawns.Array.data[0]
+    value: 
+    objectReference: {fileID: 5058959520197336924, guid: 4a335fefa2619c9498922c987fa173fe, type: 3}
+  - target: {fileID: 0}
+    propertyPath: spawns.Array.data[1]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: spawns.Array.data[2]
+    value: 
+    objectReference: {fileID: 107378587955965521, guid: f98eab31c95190943bf22c5ec3acfbc3, type: 3}
+  - target: {fileID: 0}
+    propertyPath: spawns.Array.data[3]
+    value: 
+    objectReference: {fileID: 5974379199724216372, guid: 631206f2f9579ef449501b3b370f0949, type: 3}
+  - target: {fileID: 0}
+    propertyPath: spawns.Array.data[4]
+    value: 
+    objectReference: {fileID: 6129953411920478805, guid: 99ddd24e3301ce048afa698cea7ce68e, type: 3}
+  - target: {fileID: 0}
+    propertyPath: spawns.Array.data[5]
+    value: 
+    objectReference: {fileID: 5058959520197336924, guid: 4a335fefa2619c9498922c987fa173fe, type: 3}
+  - target: {fileID: 0}
+    propertyPath: spawns.Array.data[6]
+    value: 
+    objectReference: {fileID: 107378587955965521, guid: f98eab31c95190943bf22c5ec3acfbc3, type: 3}
+  - target: {fileID: 0}
+    propertyPath: spawns.Array.data[7]
+    value: 
+    objectReference: {fileID: 5058959520197336924, guid: 4a335fefa2619c9498922c987fa173fe, type: 3}
+  - target: {fileID: 0}
+    propertyPath: spawns.Array.data[8]
+    value: 
+    objectReference: {fileID: 8620961820335838156, guid: d9273117da0651541adefafc8efcfc06, type: 3}
+  - target: {fileID: 0}
+    propertyPath: spawns.Array.data[9]
+    value: 
+    objectReference: {fileID: 726021673864313305, guid: 4818826824048cb488e46d68cbba288e, type: 3}
+  - target: {fileID: 0}
+    propertyPath: spawns.Array.data[10]
+    value: 
+    objectReference: {fileID: 107378587955965521, guid: f98eab31c95190943bf22c5ec3acfbc3, type: 3}
+  - target: {fileID: 0}
+    propertyPath: spawns.Array.data[11]
+    value: 
+    objectReference: {fileID: 5092048540821815129, guid: a5c962dba79182741b99f68f289351c9, type: 3}
+  - target: {fileID: 0}
+    propertyPath: spawns.Array.data[12]
+    value: 
+    objectReference: {fileID: 8620961820335838156, guid: d9273117da0651541adefafc8efcfc06, type: 3}
+  - target: {fileID: 0}
+    propertyPath: spawns.Array.data[13]
+    value: 
+    objectReference: {fileID: 1552421670452348464, guid: 1532ba91d7be81140bf7a6991a48f46a, type: 3}
+  - target: {fileID: 0}
+    propertyPath: spawns.Array.data[14]
+    value: 
+    objectReference: {fileID: 107378587955965521, guid: f98eab31c95190943bf22c5ec3acfbc3, type: 3}
+  - target: {fileID: 0}
+    propertyPath: leftLegNames.Array.size
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftLegNames.Array.data[0]
+    value: mixamorig:LeftToe_End
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftLegNames.Array.data[1]
+    value: mixamorig:LeftToeBase
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftLegNames.Array.data[2]
+    value: mixamorig:LeftFoot
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftLegNames.Array.data[3]
+    value: mixamorig:LeftLeg
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftLegNames.Array.data[4]
+    value: mixamorig:LeftUpLeg
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftLegNames.Array.data[5]
+    value: mixamorig:Hips
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightLegNames.Array.size
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightLegNames.Array.data[0]
+    value: mixamorig:RightToe_End
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightLegNames.Array.data[1]
+    value: mixamorig:RightToeBase
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightLegNames.Array.data[2]
+    value: mixamorig:RightFoot
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightLegNames.Array.data[3]
+    value: mixamorig:RightLeg
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightLegNames.Array.data[4]
+    value: mixamorig:RightUpLeg
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightLegNames.Array.data[5]
+    value: mixamorig:Hips
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightArmNames.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightArmNames.Array.data[0]
+    value: mixamorig:RightHandIndex1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightArmNames.Array.data[1]
+    value: mixamorig:RightHand
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightArmNames.Array.data[2]
+    value: mixamorig:RightForeArm
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightArmNames.Array.data[3]
+    value: mixamorig:RightArm
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightArmNames.Array.data[4]
+    value: mixamorig:RightShoulder
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftArmNames.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftArmNames.Array.data[0]
+    value: mixamorig:LeftHandIndex1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftArmNames.Array.data[1]
+    value: mixamorig:LeftHand
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftArmNames.Array.data[2]
+    value: mixamorig:LeftForeArm
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftArmNames.Array.data[3]
+    value: mixamorig:LeftArm
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftArmNames.Array.data[4]
+    value: mixamorig:LeftShoulder
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: spineNames.Array.size
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: spineNames.Array.data[0]
+    value: mixamorig:HeadTop_End
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: spineNames.Array.data[1]
+    value: mixamorig:Head
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: spineNames.Array.data[2]
+    value: mixamorig:Neck
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: spineNames.Array.data[3]
+    value: mixamorig:Spine2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: spineNames.Array.data[4]
+    value: mixamorig:Spine1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: spineNames.Array.data[5]
+    value: mixamorig:Spine
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: spineNames.Array.data[6]
+    value: mixamorig:Hips
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: headNames.Array.size
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: headNames.Array.data[0]
+    value: mixamorig:HeadTop_End
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: headNames.Array.data[1]
+    value: mixamorig:Head
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: spawnresetRate
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: spawnSetBalance
+    value: 70
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []
