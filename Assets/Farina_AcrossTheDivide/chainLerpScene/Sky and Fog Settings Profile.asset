@@ -39,7 +39,7 @@ MonoBehaviour:
   m_AdvancedMode: 0
   mode:
     m_OverrideState: 1
-    m_Value: 3
+    m_Value: 0
   meteringMode:
     m_OverrideState: 0
     m_Value: 2
@@ -48,7 +48,7 @@ MonoBehaviour:
     m_Value: 1
   fixedExposure:
     m_OverrideState: 1
-    m_Value: 9.29
+    m_Value: 13.89
   compensation:
     m_OverrideState: 0
     m_Value: 0
@@ -286,7 +286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 598e2d32e2c7b0c418e030c3236d663a, type: 3}
   m_Name: ChromaticAberration
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   m_AdvancedMode: 0
   quality:
     m_OverrideState: 1
@@ -410,7 +410,7 @@ MonoBehaviour:
   m_AdvancedMode: 0
   rotation:
     m_OverrideState: 1
-    m_Value: 153
+    m_Value: 360
     min: 0
     max: 360
   skyIntensityMode:
@@ -418,7 +418,7 @@ MonoBehaviour:
     m_Value: 0
   exposure:
     m_OverrideState: 1
-    m_Value: -3.8
+    m_Value: 15.7
   multiplier:
     m_OverrideState: 1
     m_Value: 1910.2

@@ -139,6 +139,7 @@ GameObject:
   - component: {fileID: 18713271}
   - component: {fileID: 18713272}
   - component: {fileID: 18713273}
+  - component: {fileID: 18713274}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -348,7 +349,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 18713265}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 095e3f52d5906c84093b1ca63cc58031, type: 3}
   m_Name: 
@@ -387,6 +388,51 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &18713274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 18713265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa3bbabd5a70fb446a68c0af5a71d58f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UpdateMode: 0
+  UpdateTiming: 1
+  TwoDDistanceCheck: 0
+  TwoDPositionInfluence: 0
+  TwoDRotationInfluence: 0
+  EnablePositionEffect: 1
+  EnableRotationEffect: 1
+  GlobalReactionUpVector: 0
+  TranslationLockSpace: 0
+  LockTranslationX: 0
+  LockTranslationY: 0
+  LockTranslationZ: 0
+  Params:
+    InstanceID: -4578
+    Bits:
+      m_bits: 0
+    TwoDPlane: 1
+    PositionParameterMode: 1
+    RotationParameterMode: 1
+    PositionExponentialHalfLife: 0.02
+    PositionOscillationHalfLife: 3.51
+    PositionOscillationFrequency: 7.34
+    PositionOscillationDampingRatio: 0.5
+    MoveReactionMultiplier: 1
+    LinearImpulseMultiplier: 1
+    RotationExponentialHalfLife: 0.02
+    RotationOscillationHalfLife: 0.1
+    RotationOscillationFrequency: 5
+    RotationOscillationDampingRatio: 0.5
+    RotationReactionMultiplier: 1
+    AngularImpulseMultiplier: 1
+    RotationReactionUp: {x: 0, y: 0, z: 0}
+  SharedParams: {fileID: 0}
 --- !u!4 &30220595 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 96977411896959843, guid: 4818826824048cb488e46d68cbba288e, type: 3}
@@ -1421,7 +1467,7 @@ MonoBehaviour:
   m_PointlightHDType: 1
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 19.4
+  m_Intensity: 24
   m_EnableSpotReflector: 0
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -1524,7 +1570,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 86475.25
+  m_Intensity: 2097152
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -2327,16 +2373,17 @@ MonoBehaviour:
   spinePercentage: 31.7
   rightArmPercentage: 32.4
   leftArmPercentage: 35
-  rightLegPercentage: 35
-  leftLegPercentage: 35
+  rightLegPercentage: 89.8
+  leftLegPercentage: 88.5
   spatialJitter: 0.057
   scaleJitterMin: 0.01
-  scaleJitterMax: 0.16
+  scaleJitterMax: 0.39
   fibonacciScalePercentage: 0.89
   spawnTag: clone
   spawns:
   - {fileID: 5974379199724216372, guid: 631206f2f9579ef449501b3b370f0949, type: 3}
-  - {fileID: 5974379199724216372, guid: 631206f2f9579ef449501b3b370f0949, type: 3}
+  - {fileID: 5974379199724216372, guid: 2c038ded7a921df468fc21ef8f7a47cf, type: 3}
+  - {fileID: 5974379199724216372, guid: fc83ff246ff393c45ae955d6034427e5, type: 3}
   targetPrefab: {fileID: 4279323610067355135}
   leftLegNames:
   - mixamorig:LeftToe_End
@@ -2403,6 +2450,10 @@ MonoBehaviour:
   spawnTag: clone
   spawns:
   - {fileID: 1474631764905626085, guid: 58a6b358ae164d8459386bb3f9e80edd, type: 3}
+  - {fileID: 1552421670452348464, guid: 1532ba91d7be81140bf7a6991a48f46a, type: 3}
+  - {fileID: 5058959520197336924, guid: f1881824654e9c444adfa39bc741783e, type: 3}
+  - {fileID: 5974379199724216372, guid: 631206f2f9579ef449501b3b370f0949, type: 3}
+  - {fileID: 5092048540821815129, guid: a5c962dba79182741b99f68f289351c9, type: 3}
   leftLegNames:
   - mixamorig:LeftToe_End
   - mixamorig:LeftToeBase
@@ -4090,13 +4141,14 @@ GameObject:
   - component: {fileID: 1502696219}
   - component: {fileID: 1502696218}
   - component: {fileID: 1502696217}
+  - component: {fileID: 1502696221}
   m_Layer: 0
   m_Name: Main Camera (4)
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1502696217
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4231,7 +4283,7 @@ Camera:
   m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 36.391148
+  m_FocalLength: 178.3154
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -4240,7 +4292,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 36.5
+  field of view: 7.7
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -4249,7 +4301,7 @@ Camera:
     m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 4
+  m_TargetDisplay: 2
   m_TargetEye: 3
   m_HDR: 0
   m_AllowMSAA: 0
@@ -4272,6 +4324,51 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1502696221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502696216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa3bbabd5a70fb446a68c0af5a71d58f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UpdateMode: 0
+  UpdateTiming: 1
+  TwoDDistanceCheck: 0
+  TwoDPositionInfluence: 0
+  TwoDRotationInfluence: 0
+  EnablePositionEffect: 1
+  EnableRotationEffect: 1
+  GlobalReactionUpVector: 0
+  TranslationLockSpace: 0
+  LockTranslationX: 0
+  LockTranslationY: 0
+  LockTranslationZ: 0
+  Params:
+    InstanceID: -1
+    Bits:
+      m_bits: 0
+    TwoDPlane: 1
+    PositionParameterMode: 1
+    RotationParameterMode: 1
+    PositionExponentialHalfLife: 0.02
+    PositionOscillationHalfLife: 2.75
+    PositionOscillationFrequency: 3.3
+    PositionOscillationDampingRatio: 0.5
+    MoveReactionMultiplier: 1
+    LinearImpulseMultiplier: 1
+    RotationExponentialHalfLife: 0.02
+    RotationOscillationHalfLife: 0.1
+    RotationOscillationFrequency: 5
+    RotationOscillationDampingRatio: 0.5
+    RotationReactionMultiplier: 1
+    AngularImpulseMultiplier: 1
+    RotationReactionUp: {x: 0, y: 0, z: 0}
+  SharedParams: {fileID: 0}
 --- !u!1 &1543365395
 GameObject:
   m_ObjectHideFlags: 0
@@ -4385,7 +4482,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &1546484476
 Light:
   m_ObjectHideFlags: 0
@@ -5246,13 +5343,14 @@ GameObject:
   - component: {fileID: 1767864080}
   - component: {fileID: 1767864079}
   - component: {fileID: 1767864078}
+  - component: {fileID: 1767864082}
   m_Layer: 0
   m_Name: Main Camera (3)
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1767864078
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5387,7 +5485,7 @@ Camera:
   m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 11.131588
+  m_FocalLength: 93.67465
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -5396,7 +5494,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 94.3
+  field of view: 14.6
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -5405,7 +5503,7 @@ Camera:
     m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 3
+  m_TargetDisplay: 1
   m_TargetEye: 3
   m_HDR: 0
   m_AllowMSAA: 0
@@ -5428,6 +5526,51 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1767864082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767864077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa3bbabd5a70fb446a68c0af5a71d58f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UpdateMode: 0
+  UpdateTiming: 1
+  TwoDDistanceCheck: 0
+  TwoDPositionInfluence: 0
+  TwoDRotationInfluence: 0
+  EnablePositionEffect: 1
+  EnableRotationEffect: 1
+  GlobalReactionUpVector: 0
+  TranslationLockSpace: 0
+  LockTranslationX: 0
+  LockTranslationY: 0
+  LockTranslationZ: 0
+  Params:
+    InstanceID: -1
+    Bits:
+      m_bits: 0
+    TwoDPlane: 1
+    PositionParameterMode: 1
+    RotationParameterMode: 1
+    PositionExponentialHalfLife: 0.02
+    PositionOscillationHalfLife: 3.37
+    PositionOscillationFrequency: 6.58
+    PositionOscillationDampingRatio: 0.5
+    MoveReactionMultiplier: 1
+    LinearImpulseMultiplier: 1
+    RotationExponentialHalfLife: 0.02
+    RotationOscillationHalfLife: 0.1
+    RotationOscillationFrequency: 5
+    RotationOscillationDampingRatio: 0.5
+    RotationReactionMultiplier: 1
+    AngularImpulseMultiplier: 1
+    RotationReactionUp: {x: 0, y: 0, z: 0}
+  SharedParams: {fileID: 0}
 --- !u!1 &1782460082
 GameObject:
   m_ObjectHideFlags: 0
