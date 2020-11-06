@@ -12,12 +12,17 @@ public class destroyAfterTime : MonoBehaviour
     public float timeMax = 10.0f;
     private part_parent_target thisPartParent;
     private GameObject targetStorage;
+    public bool DestroyTarget = true;
     // Start is called before the first frame update
     void Start()
     {
         float lifetime = Random.Range(timeMin, timeMax);
-        thisPartParent = GetComponent < part_parent_target > ();
-        targetStorage = thisPartParent.MagnetObjects;
+        if(DestroyTarget)
+        {
+            thisPartParent = GetComponent<part_parent_target>();
+            targetStorage = thisPartParent.MagnetObjects;
+        }
+        
         Invoke("shrink", lifetime);
         
     }
@@ -31,7 +36,10 @@ public class destroyAfterTime : MonoBehaviour
     void eliminate()
     {
         Destroy(transform.gameObject);
-        Destroy(targetStorage);
+        if (DestroyTarget)
+        {
+            Destroy(targetStorage);
+        }
     }
     // Update is called once per frame
     void Update()

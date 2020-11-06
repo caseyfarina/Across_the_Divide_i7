@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class spawnChainLerp : MonoBehaviour
 {
@@ -273,15 +274,21 @@ public class spawnChainLerp : MonoBehaviour
         if (Random.Range(0f, 100f) < fibonacciScalePercentage)
         {
             float tempScale = Random.Range(scaleJitterMin, scaleJitterMax);
-            thisOne.transform.localScale = Vector3.Scale(thisOne.transform.localScale, new Vector3(tempScale * 6.18f, tempScale * 6.18f, tempScale * 6.18f));
+            thisOne.transform.localScale = Vector3.zero;
+            //thisOne.transform.localScale = Vector3.Scale(thisOne.transform.localScale, new Vector3(tempScale * 6.18f, tempScale * 6.18f, tempScale * 6.18f));
+            thisOne.transform.DOScale(new Vector3(tempScale * 6.18f, tempScale * 6.18f, tempScale * 6.18f), .3f).SetEase(Ease.InOutQuad);
             //this is a great shortcut for randomly rotating an object randomly
             thisOne.transform.rotation = Random.rotation;
         }
         else
         {
             float tempScale = Random.Range(scaleJitterMin, scaleJitterMax);
-            thisOne.transform.localScale = Vector3.Scale(thisOne.transform.localScale, new Vector3(tempScale, tempScale, tempScale));
+            thisOne.transform.localScale = Vector3.zero;
+            //thisOne.transform.localScale = Vector3.Scale(thisOne.transform.localScale, new Vector3(tempScale, tempScale, tempScale));
+            thisOne.transform.DOScale(new Vector3(tempScale, tempScale, tempScale), .7f).SetEase(Ease.InOutQuad);
             thisOne.transform.rotation = Random.rotation;
+
+            
         }
     }
 }

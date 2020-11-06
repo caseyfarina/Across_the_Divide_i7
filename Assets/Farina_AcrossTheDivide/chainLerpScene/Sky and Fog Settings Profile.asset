@@ -183,7 +183,7 @@ MonoBehaviour:
     m_Value: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 3.28
+    m_Value: 0.96
     min: 0
     max: 4
   directLightingStrength:
@@ -193,7 +193,7 @@ MonoBehaviour:
     max: 1
   radius:
     m_OverrideState: 1
-    m_Value: 1.7
+    m_Value: 0.75
     min: 0.25
     max: 5
   temporalAccumulation:
@@ -316,7 +316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 953beb541740ddc499d005ee80c9ff29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   m_AdvancedMode: 1
   enabled:
     m_OverrideState: 1
@@ -370,7 +370,7 @@ MonoBehaviour:
     m_Value: 2077.2
     min: 1
   enableVolumetricFog:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   anisotropy:
     m_OverrideState: 0
@@ -418,7 +418,7 @@ MonoBehaviour:
     m_Value: 0
   exposure:
     m_OverrideState: 1
-    m_Value: 15.7
+    m_Value: 17.4
   multiplier:
     m_OverrideState: 1
     m_Value: 1910.2
@@ -429,7 +429,7 @@ MonoBehaviour:
     min: 0
   upperHemisphereLuxColor:
     m_OverrideState: 0
-    m_Value: {x: 0.38023475, y: 0.43748766, z: 0.5}
+    m_Value: {x: 0.38023478, y: 0.43748772, z: 0.5}
   desiredLuxValue:
     m_OverrideState: 0
     m_Value: 20000

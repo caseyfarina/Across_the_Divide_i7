@@ -9,11 +9,11 @@ public class rotate_this_object : MonoBehaviour
  
     [Space(10)] // 10 pixels of spacing here.
     [Header("Rotation Speed Per Axis")]
-    [Range(0f, 10f)]
+    [Range(0f, 90f)]
     public float xRotation = 0f;
-    [Range(0f, 10f)]
+    [Range(0f, 90f)]
     public float yRotation = 0f;
-    [Range(0f, 10f)]
+    [Range(0f, 90f)]
     public float zRotation = 0f;
 
     [Range(0f, 10f)]
