@@ -12,6 +12,9 @@ GameObject:
   - component: {fileID: 8375780565301255360}
   - component: {fileID: 4867831172611778497}
   - component: {fileID: 749996096760733538}
+  - component: {fileID: 913457005961198774}
+  - component: {fileID: 5521440998643482918}
+  - component: {fileID: 8054789163251281281}
   m_Layer: 0
   m_Name: ATD_mesh_small___7
   m_TagString: Untagged
@@ -40,7 +43,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5092048540821815129}
-  m_Mesh: {fileID: -6082647606162057039, guid: edaf5cb683b6ced44b7fa4a1cad97d04, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 17e64187a223f3a4a9eed7dc2e5366b8, type: 3}
 --- !u!23 &4867831172611778497
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -95,4 +98,50 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeMin: 5
-  timeeMax: 10
+  timeMax: 10
+  DestroyTarget: 1
+--- !u!135 &913457005961198774
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5092048540821815129}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.21782789
+  m_Center: {x: -0.014870372, y: 0.0031075254, z: 0.005349897}
+--- !u!54 &5521440998643482918
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5092048540821815129}
+  serializedVersion: 2
+  m_Mass: 2
+  m_Drag: 1
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &8054789163251281281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5092048540821815129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d34b8183603b8464faa0bfb75a857354, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MagnetObjects: {fileID: 5847106490709730774, guid: 48f79f37b591ae34babf97350eda4ae1, type: 3}
+  Atr_forcePercentage: 10
+  attractionForceMax: 50
+  magnetChangePercentage: 1

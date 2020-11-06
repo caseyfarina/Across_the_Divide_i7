@@ -33,7 +33,7 @@ public class mixamoBodySpawn : MonoBehaviour
    // public GameObject[] chain;
    // public GameObject[] leftLeg;
 
-    List<GameObject> leftLeg = new List<GameObject>();
+    public List<GameObject> leftLeg = new List<GameObject>();
 
     public string[] leftLegNames = {
     
@@ -45,7 +45,7 @@ public class mixamoBodySpawn : MonoBehaviour
     "mixamorig:Hips"
      };
 
-    List<GameObject> rightLeg = new List<GameObject>();
+    public List<GameObject> rightLeg = new List<GameObject>();
 
     public string[] rightLegNames = {
     
@@ -57,7 +57,7 @@ public class mixamoBodySpawn : MonoBehaviour
     "mixamorig:Hips"
      };
 
-    List<GameObject> rightArm = new List<GameObject>();
+    public List<GameObject> rightArm = new List<GameObject>();
 
     public string[] rightArmNames = {
     "mixamorig:RightHandIndex1",
@@ -67,7 +67,7 @@ public class mixamoBodySpawn : MonoBehaviour
     "mixamorig:RightShoulder"
      };
 
-    List<GameObject> leftArm = new List<GameObject>();
+    public List<GameObject> leftArm = new List<GameObject>();
 
     public string[] leftArmNames = {
     "mixamorig:LeftHandIndex1",
@@ -77,7 +77,7 @@ public class mixamoBodySpawn : MonoBehaviour
     "mixamorig:LeftShoulder"
      };
 
-    List<GameObject> spine = new List<GameObject>();
+    public List<GameObject> spine = new List<GameObject>();
 
     public string[] spineNames = {
     "mixamorig:HeadTop_End",
@@ -89,7 +89,7 @@ public class mixamoBodySpawn : MonoBehaviour
     "mixamorig:Hips"
      };
 
-    List<GameObject> head = new List<GameObject>();
+    public List<GameObject> head = new List<GameObject>();
 
     public string[] headNames = {
     "mixamorig:HeadTop_End",
@@ -101,6 +101,8 @@ public class mixamoBodySpawn : MonoBehaviour
 
 
     public float spawnresetRate = 2f;
+    public AnimationCurve randomShaping;
+    public float randomBody = .5f;
     //public into_part_behavior behave;
     private int spawnset;
     private int spawnset2;
@@ -109,6 +111,8 @@ public class mixamoBodySpawn : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
+        /*
         //leftLeg.Length = leftLegNames.Length;
         foreach (string name in leftLegNames)
         {
@@ -138,7 +142,7 @@ public class mixamoBodySpawn : MonoBehaviour
         foreach (string name in headNames)
         {
             head.Add(GameObject.Find(name));
-        }
+        }*/
 
         spawnset = Random.Range(0, spawns.Length);
         spawnset2 = Random.Range(0, spawns.Length);
@@ -164,7 +168,16 @@ public class mixamoBodySpawn : MonoBehaviour
         if (Random.Range(0f, 100f) < leftLegPercentage) { spawnOnLimb(leftLeg); }
 
 
-
+        if(Random.Range(0f,100f) < randomBody)
+        {
+            headPercentage = 100f * randomShaping.Evaluate(Random.Range(0f, 1f));
+            spinePercentage = 100f * randomShaping.Evaluate(Random.Range(0f, 1f));
+            rightArmPercentage = 100f * randomShaping.Evaluate(Random.Range(0f, 1f));
+            leftArmPercentage = 100f * randomShaping.Evaluate(Random.Range(0f, 1f));
+            rightLegPercentage = 100f * randomShaping.Evaluate(Random.Range(0f, 1f));
+            leftLegPercentage = 100f * randomShaping.Evaluate(Random.Range(0f, 1f));
+            scaleJitterMax = Random.Range(0.06f, .4f);
+        }
         
 
 

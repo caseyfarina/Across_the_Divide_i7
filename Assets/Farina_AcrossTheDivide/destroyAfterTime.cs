@@ -8,7 +8,7 @@ public class destroyAfterTime : MonoBehaviour
 
     [Range(0.0f, 10f)]
     public float timeMin = 5f;
-    [Range(0.01f, 10f)]
+    [Range(0.01f, 30f)]
     public float timeMax = 10.0f;
     private part_parent_target thisPartParent;
     private GameObject targetStorage;
