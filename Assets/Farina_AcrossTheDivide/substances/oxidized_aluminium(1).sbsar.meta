@@ -17,13 +17,19 @@ ScriptedImporter:
     generateAllOutputs: 0
     generateMipMaps: 1
     preset: " <sbspreset pkgurl=\"pkg://oxidized_aluminium\" label=\"\" >\n  <presetinput
-      identifier=\"$outputsize\" uid=\"3694470757\" type=\"8\" value=\"9,9\" />\n
-      </sbspreset>\n"
+      identifier=\"$outputsize\" uid=\"3694470757\" type=\"8\" value=\"10,10\" />\n 
+      <presetinput identifier=\"$randomseed\" uid=\"2336698423\" type=\"4\" value=\"8975\"
+      />\n  <presetinput identifier=\"metal_roughness\" uid=\"3034793404\" type=\"0\"
+      value=\"0.258\" />\n  <presetinput identifier=\"oxide_layering\" uid=\"3034808251\"
+      type=\"0\" value=\"0.813\" />\n  <presetinput identifier=\"oxide_layering_spot_amount\"
+      uid=\"3034618874\" type=\"4\" value=\"68\" />\n  <presetinput identifier=\"light_oxide_stain_amount\"
+      uid=\"3034802176\" type=\"0\" value=\"0.848\" />\n </sbspreset>\n"
     shaderName: HDRP/LitTessellation
     materialProperties:
       shader: {fileID: 4800000, guid: 756bac9090102564582875f4c7e30202, type: 3}
-      shaderKeywords: _DISPLACEMENT_LOCK_TILING_SCALE _HEIGHTMAP _MASKMAP _NORMALMAP
-        _NORMALMAP_TANGENT_SPACE _SPECULARCOLORMAP _TESSELLATION_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE
+      shaderKeywords: _DISPLACEMENT_LOCK_TILING_SCALE _GLOSSINESSMAP _HEIGHTMAP _MASKMAP
+        _METALLICGLOSSMAP _NA_DIFFUSE _NORMALMAP _NORMALMAP_TANGENT_SPACE _ROUGHNESSMAP
+        _SPECULARCOLORMAP _TESSELLATION_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE
       lightmapFlags: 4
       enableInstancingVariants: 0
       doubleSidedGI: 0
@@ -173,7 +179,7 @@ ScriptedImporter:
       - name: _DistortionBlurBlendMode
         float: 0
       - name: _DistortionBlurDstBlend
-        float: 0
+        float: 1
       - name: _DistortionBlurRemapMax
         float: 1
       - name: _DistortionBlurRemapMin
@@ -181,17 +187,17 @@ ScriptedImporter:
       - name: _DistortionBlurScale
         float: 1
       - name: _DistortionBlurSrcBlend
-        float: 0
+        float: 1
       - name: _DistortionDepthTest
         float: 1
       - name: _DistortionDstBlend
-        float: 0
+        float: 1
       - name: _DistortionEnable
         float: 0
       - name: _DistortionScale
         float: 1
       - name: _DistortionSrcBlend
-        float: 0
+        float: 1
       - name: _DistortionVectorBias
         float: -1
       - name: _DistortionVectorScale
@@ -287,23 +293,23 @@ ScriptedImporter:
       - name: _StencilRef
         float: 0
       - name: _StencilRefDepth
-        float: 0
+        float: 8
       - name: _StencilRefDistortionVec
-        float: 2
+        float: 4
       - name: _StencilRefGBuffer
-        float: 2
+        float: 10
       - name: _StencilRefMV
-        float: 32
+        float: 40
       - name: _StencilWriteMask
-        float: 3
+        float: 6
       - name: _StencilWriteMaskDepth
         float: 8
       - name: _StencilWriteMaskDistortionVec
-        float: 2
+        float: 4
       - name: _StencilWriteMaskGBuffer
-        float: 3
+        float: 14
       - name: _StencilWriteMaskMV
-        float: 32
+        float: 40
       - name: _SubsurfaceMask
         float: 1
       - name: _SupportDecals
@@ -359,11 +365,11 @@ ScriptedImporter:
       - name: _UseShadowThreshold
         float: 0
       - name: _ZTestDepthEqualForOpaque
-        float: 4
+        float: 3
       - name: _ZTestGBuffer
         float: 4
       - name: _ZTestModeDistortion
-        float: 8
+        float: 4
       - name: _ZTestTransparent
         float: 4
       - name: _ZWrite
@@ -581,8 +587,8 @@ ScriptedImporter:
     - label: Default
       bOverride: 0
       bLockRatio: 1
-      textureWidth: 512
-      textureHeight: 512
+      textureWidth: 1024
+      textureHeight: 1024
       textureFormatMode: 0
       normalCompressed: 0
       bGenerateOnLoad: 1

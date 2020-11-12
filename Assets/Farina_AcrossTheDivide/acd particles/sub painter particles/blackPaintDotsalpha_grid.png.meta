@@ -1,0 +1,1039 @@
+fileFormatVersion: 2
+guid: 377e480d7a220a74b82f4e918a99b87f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3087662855363436127
+    second: blackPaintDotsalpha_grid_0
+  - first:
+      213: -938679730951123733
+    second: blackPaintDotsalpha_grid_1
+  - first:
+      213: -6507526486595741760
+    second: blackPaintDotsalpha_grid_2
+  - first:
+      213: -1257707000283851246
+    second: blackPaintDotsalpha_grid_3
+  - first:
+      213: 7261522757414120384
+    second: blackPaintDotsalpha_grid_4
+  - first:
+      213: 4525941522699566016
+    second: blackPaintDotsalpha_grid_5
+  - first:
+      213: -1216261654106269894
+    second: blackPaintDotsalpha_grid_6
+  - first:
+      213: -1375805315595348728
+    second: blackPaintDotsalpha_grid_7
+  - first:
+      213: -6373528489657562108
+    second: blackPaintDotsalpha_grid_8
+  - first:
+      213: 2315384172988619055
+    second: blackPaintDotsalpha_grid_9
+  - first:
+      213: 91448861267586399
+    second: blackPaintDotsalpha_grid_10
+  - first:
+      213: -5777167979416287092
+    second: blackPaintDotsalpha_grid_11
+  - first:
+      213: 4381462337209939676
+    second: blackPaintDotsalpha_grid_12
+  - first:
+      213: 8181994775013842879
+    second: blackPaintDotsalpha_grid_13
+  - first:
+      213: 6602374045941705512
+    second: blackPaintDotsalpha_grid_14
+  - first:
+      213: -4594546328046512336
+    second: blackPaintDotsalpha_grid_15
+  - first:
+      213: 240685408633032933
+    second: blackPaintDotsalpha_grid_16
+  - first:
+      213: -5713163439209860741
+    second: blackPaintDotsalpha_grid_17
+  - first:
+      213: -1810774969224375682
+    second: blackPaintDotsalpha_grid_18
+  - first:
+      213: -2554139854102962960
+    second: blackPaintDotsalpha_grid_19
+  - first:
+      213: 7655181535924502851
+    second: blackPaintDotsalpha_grid_20
+  - first:
+      213: 264447017784578055
+    second: blackPaintDotsalpha_grid_21
+  - first:
+      213: -1727546805058661650
+    second: blackPaintDotsalpha_grid_22
+  - first:
+      213: -1061422023289638831
+    second: blackPaintDotsalpha_grid_23
+  - first:
+      213: 996924087072375217
+    second: blackPaintDotsalpha_grid_24
+  - first:
+      213: 8355373032985827737
+    second: blackPaintDotsalpha_grid_25
+  - first:
+      213: -3210707667230532626
+    second: blackPaintDotsalpha_grid_26
+  - first:
+      213: 663041823811904795
+    second: blackPaintDotsalpha_grid_27
+  - first:
+      213: -5398192725979323911
+    second: blackPaintDotsalpha_grid_28
+  - first:
+      213: -352017327221288462
+    second: blackPaintDotsalpha_grid_29
+  - first:
+      213: 8676579169738224306
+    second: blackPaintDotsalpha_grid_30
+  - first:
+      213: 3064622801183059494
+    second: blackPaintDotsalpha_grid_31
+  - first:
+      213: -6326934377784859634
+    second: blackPaintDotsalpha_grid_32
+  - first:
+      213: -2919242765367441005
+    second: blackPaintDotsalpha_grid_33
+  - first:
+      213: -3695352155206525941
+    second: blackPaintDotsalpha_grid_34
+  - first:
+      213: -3334224677184840767
+    second: blackPaintDotsalpha_grid_35
+  - first:
+      213: 6047557775183067392
+    second: blackPaintDotsalpha_grid_36
+  - first:
+      213: -2955882186955968182
+    second: blackPaintDotsalpha_grid_37
+  - first:
+      213: 6360517692893079172
+    second: blackPaintDotsalpha_grid_38
+  - first:
+      213: 5537954985520267615
+    second: blackPaintDotsalpha_grid_39
+  - first:
+      213: -229416917918227189
+    second: blackPaintDotsalpha_grid_40
+  - first:
+      213: 5485380089160522286
+    second: blackPaintDotsalpha_grid_41
+  - first:
+      213: 6168383679030107743
+    second: blackPaintDotsalpha_grid_42
+  - first:
+      213: 8513611718048888722
+    second: blackPaintDotsalpha_grid_43
+  - first:
+      213: 7189486452121904895
+    second: blackPaintDotsalpha_grid_44
+  - first:
+      213: 1034896282223869544
+    second: blackPaintDotsalpha_grid_45
+  - first:
+      213: -8179146093833929823
+    second: blackPaintDotsalpha_grid_46
+  - first:
+      213: 5246644356233946997
+    second: blackPaintDotsalpha_grid_47
+  - first:
+      213: -6833954291057274434
+    second: blackPaintDotsalpha_grid_48
+  - first:
+      213: -3824114421177240548
+    second: blackPaintDotsalpha_grid_49
+  - first:
+      213: -265749033495104817
+    second: blackPaintDotsalpha_grid_50
+  - first:
+      213: -155809372724834870
+    second: blackPaintDotsalpha_grid_51
+  - first:
+      213: -3280524833429621065
+    second: blackPaintDotsalpha_grid_52
+  - first:
+      213: 5070899832739505448
+    second: blackPaintDotsalpha_grid_53
+  - first:
+      213: 5463541740595373683
+    second: blackPaintDotsalpha_grid_54
+  - first:
+      213: 5662449981652414825
+    second: blackPaintDotsalpha_grid_55
+  - first:
+      213: -8444682731927687033
+    second: blackPaintDotsalpha_grid_56
+  - first:
+      213: -1795762021074285986
+    second: blackPaintDotsalpha_grid_57
+  - first:
+      213: 6539642739492065697
+    second: blackPaintDotsalpha_grid_58
+  - first:
+      213: 3299547874984305817
+    second: blackPaintDotsalpha_grid_59
+  - first:
+      213: -8223693966139523427
+    second: blackPaintDotsalpha_grid_60
+  - first:
+      213: -1913229919506969840
+    second: blackPaintDotsalpha_grid_61
+  - first:
+      213: 8586831748290538658
+    second: blackPaintDotsalpha_grid_62
+  - first:
+      213: 7197903768849968661
+    second: blackPaintDotsalpha_grid_0
+  - first:
+      213: 3549175040545985534
+    second: blackPaintDotsalpha_grid_1
+  - first:
+      213: 1923682356960519967
+    second: blackPaintDotsalpha_grid_2
+  - first:
+      213: -1784744326766411770
+    second: blackPaintDotsalpha_grid_3
+  - first:
+      213: 115860550632374588
+    second: blackPaintDotsalpha_grid_4
+  - first:
+      213: -7550154990585277451
+    second: blackPaintDotsalpha_grid_5
+  - first:
+      213: -3949484789609181265
+    second: blackPaintDotsalpha_grid_6
+  - first:
+      213: 268601716996446655
+    second: blackPaintDotsalpha_grid_7
+  - first:
+      213: -8718779765817702159
+    second: blackPaintDotsalpha_grid_8
+  - first:
+      213: -4907255353846172598
+    second: blackPaintDotsalpha_grid_9
+  - first:
+      213: 8458190315169449557
+    second: blackPaintDotsalpha_grid_10
+  - first:
+      213: 7255961560270667924
+    second: blackPaintDotsalpha_grid_11
+  - first:
+      213: -8221007022187105804
+    second: blackPaintDotsalpha_grid_12
+  - first:
+      213: 8840199001821382472
+    second: blackPaintDotsalpha_grid_13
+  - first:
+      213: -7642842653944281772
+    second: blackPaintDotsalpha_grid_14
+  - first:
+      213: -4255887480170950183
+    second: blackPaintDotsalpha_grid_15
+  - first:
+      213: -1262858110780473094
+    second: blackPaintDotsalpha_grid_16
+  - first:
+      213: 3094226772966282194
+    second: blackPaintDotsalpha_grid_17
+  - first:
+      213: -8030305568355304477
+    second: blackPaintDotsalpha_grid_18
+  - first:
+      213: -4446075096841180000
+    second: blackPaintDotsalpha_grid_19
+  - first:
+      213: 5227198006301041671
+    second: blackPaintDotsalpha_grid_20
+  - first:
+      213: -3776053909523085440
+    second: blackPaintDotsalpha_grid_21
+  - first:
+      213: -3922893068618180274
+    second: blackPaintDotsalpha_grid_22
+  - first:
+      213: -4914949040468726297
+    second: blackPaintDotsalpha_grid_23
+  - first:
+      213: -2858604113528140663
+    second: blackPaintDotsalpha_grid_24
+  - first:
+      213: 4375901838657232979
+    second: blackPaintDotsalpha_grid_25
+  - first:
+      213: 1430170906341003647
+    second: blackPaintDotsalpha_grid_26
+  - first:
+      213: -9175120310224695080
+    second: blackPaintDotsalpha_grid_27
+  - first:
+      213: -7027940698998035998
+    second: blackPaintDotsalpha_grid_28
+  - first:
+      213: 8386533019697265510
+    second: blackPaintDotsalpha_grid_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1000
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blackPaintDotsalpha_grid_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 446.66666
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e6fb5775714e360800000000000000
+      internalID: 7197903768849968661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackPaintDotsalpha_grid_1
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 2400
+        width: 446.66666
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef31d6125e3314130800000000000000
+      internalID: 3549175040545985534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackPaintDotsalpha_grid_2
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 2400
+        width: 446.66666
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17615b59ea42ba10800000000000000
+      internalID: 1923682356960519967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackPaintDotsalpha_grid_3
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 2400
+        width: 446.66666
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600c134ad705b37e0800000000000000
+      internalID: -1784744326766411770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackPaintDotsalpha_grid_4
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 2400
+        width: 446.66666
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c318ce39e8e9b9100800000000000000
+      internalID: 115860550632374588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackPaintDotsalpha_grid_5
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 2400
+        width: 446.66666
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3950bd906783790800000000000000
+      internalID: -7550154990585277451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackPaintDotsalpha_grid_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 446.66666
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf4985528c9039c0800000000000000
+      internalID: -3949484789609181265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackPaintDotsalpha_grid_7
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1800
+        width: 446.66666
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb912a7a6d34ab300800000000000000
+      internalID: 268601716996446655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackPaintDotsalpha_grid_8
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1800
+        width: 446.66666
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8829f3ffba00780800000000000000
+      internalID: -8718779765817702159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackPaintDotsalpha_grid_9
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 1800
+        width: 446.66666
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a447dd3614de5ebb0800000000000000
+      internalID: -4907255353846172598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackPaintDotsalpha_grid_10
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 1800
+        width: 446.66666
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556035a3747816570800000000000000
+      internalID: 8458190315169449557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackPaintDotsalpha_grid_11
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 1800
+        width: 446.66666
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49082d7689a52b460800000000000000
+      internalID: 7255961560270667924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackPaintDotsalpha_grid_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 446.66666
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1bb8a8bad19ed80800000000000000
+      internalID: -8221007022187105804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackPaintDotsalpha_grid_13
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1200
+        width: 446.66666
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847835f9722beaa70800000000000000
+      internalID: 8840199001821382472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackPaintDotsalpha_grid_14
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1200
+        width: 446.66666
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4558279891b2fe590800000000000000
+      internalID: -7642842653944281772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackPaintDotsalpha_grid_15
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 1200
+        width: 446.66666
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1d06ca2ec00f4c0800000000000000
+      internalID: -4255887480170950183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackPaintDotsalpha_grid_16
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 1200
+        width: 446.66666
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af085393d3d697ee0800000000000000
+      internalID: -1262858110780473094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackPaintDotsalpha_grid_17
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 1200
+        width: 446.66666
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d398292bd6e0fa20800000000000000
+      internalID: 3094226772966282194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackPaintDotsalpha_grid_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 446.66666
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb3758c1af9e8090800000000000000
+      internalID: -8030305568355304477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackPaintDotsalpha_grid_19
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 600
+        width: 446.66666
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac2218714e5c42c0800000000000000
+      internalID: -4446075096841180000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackPaintDotsalpha_grid_20
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 600
+        width: 446.66666
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704243054ecba8840800000000000000
+      internalID: 5227198006301041671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackPaintDotsalpha_grid_21
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 600
+        width: 446.66666
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087c626c9f2c89bc0800000000000000
+      internalID: -3776053909523085440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackPaintDotsalpha_grid_22
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 600
+        width: 446.66666
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49db29d9851f89c0800000000000000
+      internalID: -3922893068618180274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackPaintDotsalpha_grid_23
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 600
+        width: 446.66666
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ede6b163e79acbb0800000000000000
+      internalID: -4914949040468726297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackPaintDotsalpha_grid_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 446.66666
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c4fab44b23458d0800000000000000
+      internalID: -2858604113528140663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackPaintDotsalpha_grid_25
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 0
+        width: 446.66666
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350a429a9835abc30800000000000000
+      internalID: 4375901838657232979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackPaintDotsalpha_grid_26
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 5
+        width: 447
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71dd88acdcf8d310800000000000000
+      internalID: 1430170906341003647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackPaintDotsalpha_grid_27
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 0
+        width: 446.66666
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0d59190bc6ba080800000000000000
+      internalID: -9175120310224695080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackPaintDotsalpha_grid_28
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 0
+        width: 446.66666
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e926bd7b2db77e90800000000000000
+      internalID: -7027940698998035998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackPaintDotsalpha_grid_29
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 0
+        width: 446.66666
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66bb3200953f26470800000000000000
+      internalID: 8386533019697265510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

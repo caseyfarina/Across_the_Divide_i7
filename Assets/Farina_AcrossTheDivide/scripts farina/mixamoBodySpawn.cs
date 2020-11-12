@@ -176,7 +176,7 @@ public class mixamoBodySpawn : MonoBehaviour
             leftArmPercentage = 100f * randomShaping.Evaluate(Random.Range(0f, 1f));
             rightLegPercentage = 100f * randomShaping.Evaluate(Random.Range(0f, 1f));
             leftLegPercentage = 100f * randomShaping.Evaluate(Random.Range(0f, 1f));
-            scaleJitterMax = Random.Range(0.06f, .4f);
+            scaleJitterMax = Random.Range(0.1f, .6f);
         }
         
 
@@ -235,7 +235,9 @@ public class mixamoBodySpawn : MonoBehaviour
     void spawnreset()
     {
         spawnset = Random.Range(0, spawns.Length);
+        print(spawns[spawnset].gameObject.name);
         spawnset2 = Random.Range(0, spawns.Length);
+        print(spawns[spawnset2].gameObject.name);
     }
 
     void spawnOnLimb(List<GameObject> Limb)
@@ -290,6 +292,9 @@ public class mixamoBodySpawn : MonoBehaviour
         if (Random.Range(0f, 100f) < fibonacciScalePercentage)
         {
             float tempScale = Random.Range(scaleJitterMin, scaleJitterMax);
+            thisOne.GetComponent<Rigidbody>().mass = 100;
+            thisOne.GetComponent<part_parent_target>().attractionForceMax = 5000;
+
             //clear scale
             thisOne.transform.localScale = Vector3.zero;
             //thisOne.transform.localScale. = Vector3.Scale(thisOne.transform.localScale, new Vector3(tempScale * 6.18f, tempScale * 6.18f, tempScale * 6.18f));
